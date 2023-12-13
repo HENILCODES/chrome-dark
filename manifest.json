@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Henil Code",
-  "description": "Base Level Extension",
+  "description": "Chrome Dark Theme",
   "version": "1.0",
   "action": {
     "default_popup": "hello.html",
@@ -17,6 +17,14 @@
     {
       "matches": [
         "<all_urls>"
+      ],
+      "exclude_matches": [
+        "https://chat.openai.com/*",
+        "https://bard.google.com/*",
+        "https://web.whatsapp.com/*",
+        "https://getbootstrap.com/*",
+        "https://docs.google.com/*",
+        "https://www.youtube.com/*"
       ],
       "js": [
         "content.js"
