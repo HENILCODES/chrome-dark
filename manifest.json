@@ -18,14 +18,6 @@
       "matches": [
         "<all_urls>"
       ],
-      "exclude_matches": [
-        "https://chat.openai.com/*",
-        "https://bard.google.com/*",
-        "https://web.whatsapp.com/*",
-        "https://getbootstrap.com/*",
-        "https://docs.google.com/*",
-        "https://www.youtube.com/*"
-      ],
       "js": [
         "content.js"
       ]
